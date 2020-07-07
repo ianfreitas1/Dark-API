@@ -1,6 +1,695 @@
 [
   {
     "char_id": "1",
-    "name": "Jonas Kanhwald"
+    "name": "Jonas Kanhwald",
+    "description": {
+      "teen": "A high school student struggling with his father's suicide. Martha’s love interest.",
+      "adult": "A time traveller, also known as 'The Stranger'",
+      "elder": "The leader of Sic Mundus, also known as 'Adam'"
+    },
+    "birthYear": "2003",
+    "occupation": ["Student", "Time traveler", "Leader of Sic Mundus"],
+    "status": "Ceased to exist",
+    "nicknames": ["The Stranger", "Adam"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Louis Hofmann",
+      "adult": "Andreas Pietschmann",
+      "elder": "Dietrich Hollinderbäumer"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/64/Profile_-_Jonas_2019.jpg/revision/latest/scale-to-width-down/350?cb=20171226150453",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/9/9a/Profile_-_Jonas_Future.jpg/revision/latest/scale-to-width-down/350?cb=20171226150454",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/a/a0/Adam.PNG/revision/latest/scale-to-width-down/350?cb=20190622150150"
+    }
+  },
+  {
+    "char_id": "2",
+    "name": "Michael Kanhwald",
+    "description": {
+      "child": "Ulrich and Katharina's youngest Child",
+      "adult": "Hannah's husband and Jonas' father, an artist who dies by suicide"
+    },
+    "birthYear": "2008",
+    "occupation": ["Magician", "Painter"],
+    "status": "Deceased/Ceased to exist",
+    "nicknames": ["Mikkel Nielsen"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Daan Lennard Liebrenz",
+      "adult": "Sebastian Rudolph"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/7/7d/Mikkel_2019.png/revision/latest/scale-to-width-down/350?cb=20200629032254",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/28/Michael_2019.png/revision/latest/scale-to-width-down/350?cb=20200629032320"
+    }
+  },
+  {
+    "char_id": "3",
+    "name": "Hannah Kanhwald",
+    "description": {
+      "teen": "Hannah Krüger, daughter of Sebastian Krüger, a shy young girl",
+      "adult": "Jonas' mother and Michael's wife, a massage therapist; Silja Tiedemann's Mother"
+    },
+    "birthYear": "1972",
+    "occupation": ["Physiotherapist"],
+    "status": "Deceased/Alive (Original World)",
+    "nicknames": ["Katharina Nielsen"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Ella Lee",
+      "adult": "Maja Schöne"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/6a/Hannah_1986.JPG/revision/latest/scale-to-width-down/350?cb=20180101123036",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/0d/Hannah.png/revision/latest/scale-to-width-down/350?cb=20171207020113"
+    }
+  },
+  {
+    "char_id": "4",
+    "name": "Ines Kanhwald",
+    "description": {
+      "child": "A young girl",
+      "adult": "Michael's adoptive mother, a nurse",
+      "elder": "Jonas' estranged grandmother"
+    },
+    "birthYear": "1940",
+    "occupation": ["Nurse"],
+    "status": "Unknown",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Lena Urzendowsky",
+      "adult": "Anne Ratte-Polle",
+      "elder": "Angela Winkler"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/7/7b/1x08_0045_Ines.jpg/revision/latest/scale-to-width-down/350?cb=20190814012254",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/19/1x03_0042_Ines.jpg/revision/latest/scale-to-width-down/350?cb=20190810000042",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/7/7b/1x10_0018_Ines.jpg/revision/latest/scale-to-width-down/350?cb=20190814212727"
+    }
+  },
+  {
+    "char_id": "5",
+    "name": "Sebastian Krüger",
+    "description": {
+      "adult": "Hannah's blue-collar father"
+    },
+    "birthYear": "Unknown",
+    "occupation": ["Linen laundry"],
+    "status": "Unknown",
+    "nicknames": [],
+    "appearance": [1],
+    "portrayed": {
+      "adult": "Denis Schmidt"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/ce/Sebastian_Kr%C3%BCger_01.png/revision/latest/scale-to-width-down/350?cb=20190724014630"
+    }
+  },
+  {
+    "char_id": "6",
+    "name": "Daniel Kahnwald",
+    "description": {
+      "adult": "Ines' father, the Winden chief of police"
+    },
+    "birthYear": "1910s",
+    "occupation": ["Chief of Police"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2],
+    "portrayed": {
+      "adult": "Florian Panzner"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/13/Daniel_Kahnwald_on_construction_site.png/revision/latest/scale-to-width-down/350?cb=20181104232100"
+    }
+  },
+  {
+    "char_id": "7",
+    "name": "Martha Nielsen",
+    "description": {
+      "teen": "Ulrich and Katharina's middle Child, Bartosz's girlfriend and Jonas' love interest",
+      "adult": "A survivor of the Apocalypse, a member of Erit Lux",
+      "elder": "The leader of Erit Lux, also known as 'Eva'"
+    },
+    "birthYear": "2003",
+    "occupation": ["Student", "Leader of Erit Lux"],
+    "status": "Deceased",
+    "nicknames": ["Eva"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Lisa Vicari",
+      "adult": "Nina Kronjäger",
+      "elder": "Barbara Nüsse"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/29/Martha_Nielsen_from_ar.png/revision/latest/scale-to-width-down/304?cb=20190625025511",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/0f/FemaleStranger.png/revision/latest/scale-to-width-down/350?cb=20200629175657",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/64/Eve.png/revision/latest/scale-to-width-down/350?cb=20200629175611"
+    }
+  },
+  {
+    "char_id": "8",
+    "name": "Magnus Nielsen",
+    "description": {
+      "teen": "Ulrich and Katharina's oldest Child, Franziska's boyfriend",
+      "adult": "A member of Sic Mundus"
+    },
+    "birthYear": "2001",
+    "occupation": ["Student"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Moritz Jahn",
+      "adult": "Wolfram Koch"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/58/Magnus.png/revision/latest?cb=20171226012232",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/14/Magnus_Adult.JPG/revision/latest/scale-to-width-down/350?cb=20190624144810"
+    }
+  },
+  {
+    "char_id": "9",
+    "name": "Ulrich Nielsen",
+    "description": {
+      "teen": "A high school student struggling after his brother's disappearance",
+      "adult": "Katharina's husband; Magnus, Martha and Mikkel's father; a police officer",
+      "elder": "Patient in a psychiatric ward, known as 'The Inspector'"
+    },
+    "birthYear": "1970",
+    "occupation": ["Police Officer"],
+    "status": "Ceased to exist",
+    "nicknames": ["The Inspector"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Ludger Bökelmann",
+      "adult": "Oliver Masucci",
+      "elder": "Winfried Glatzeder"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/b/b3/Profile_-_Ulrich_1986.jpg/revision/latest/scale-to-width-down/350?cb=20171226151947",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/c6/Profile_-_Ulrich_2019.jpg/revision/latest/scale-to-width-down/350?cb=20171226151948",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/c8/Profile_-_Ulrich_1987.png/revision/latest/scale-to-width-down/350?cb=20190623164841"
+    }
+  },
+  {
+    "char_id": "10",
+    "name": "Katharina Nielsen",
+    "description": {
+      "teen": "Ulrich's girlfriend, a high school student",
+      "adult": "Ulrich's wife; Magnus, Martha, and Mikkel's mother; a high school principal"
+    },
+    "birthYear": "1970",
+    "occupation": ["School Principal"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Nele Trebs",
+      "adult": "Jördis Triebel"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/c9/Profile_Katharina_1986.JPG/revision/latest/scale-to-width-down/350?cb=20180101125352",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/6c/Portal_%E2%80%93_Katharina.jpg/revision/latest/scale-to-width-down/350?cb=20171203142251"
+    }
+  },
+  {
+    "char_id": "11",
+    "name": "Mads Nielsen",
+    "description": {
+      "teen": "Ulrich's younger brother who has disappeared"
+    },
+    "birthYear": "1973",
+    "occupation": ["Student"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 3],
+    "portrayed": {
+      "teen": "Valentin Oppermann"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/4/46/Mads_1986.jpg/revision/latest?cb=20180110100230"
+    }
+  },
+  {
+    "char_id": "12",
+    "name": "Tronte Nielsen",
+    "description": {
+      "teen": "Agnes and The Unknown's son, newly arrived in Winden",
+      "adult": "Jana's husband; Ulrich and Mads' father; a journalist",
+      "elder": "Jana's husband; Ulrich's father; Magnus, Martha, and Mikkel's grandfather"
+    },
+    "birthYear": "1941",
+    "occupation": ["Journalist"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Joshio Marlon",
+      "adult": "Felix Kramer",
+      "elder": "Walter Kreye"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/7/7e/Profile_-_Tronte_1953.jpg/revision/latest?cb=20180101131510",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/d/d1/Profile_-_Tronte_1986.JPG/revision/latest/scale-to-width-down/350?cb=20180101131029",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/3/38/Profile_-_Tronte_2019.JPG/revision/latest/scale-to-width-down/350?cb=20180101130644"
+    }
+  },
+  {
+    "char_id": "13",
+    "name": "Jana Nielsen",
+    "description": {
+      "teen": "A young girl",
+      "adult": "Tronte's wife; Ulrich and Mads' mother",
+      "elder": "Tronte's wife; Ulrich's mother; Magnus, Martha and Mikkel's grandmother"
+    },
+    "birthYear": "Unknown",
+    "occupation": [],
+    "status": "Alive",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Rike Sindler",
+      "adult": "Anne Lebinsky",
+      "elder": "Tatja Seibt"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/7/78/Jana1953.png/revision/latest/scale-to-width-down/350?cb=20171220060141",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/0d/Jana1986.png/revision/latest/scale-to-width-down/350?cb=20171220060200",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/2a/Jana2019.png/revision/latest/scale-to-width-down/350?cb=20171220060210"
+    }
+  },
+  {
+    "char_id": "14",
+    "name": "Helene Albers",
+    "description": {
+      "child": "A young pregnant girl",
+      "adult": "Katharina's abusive mother; a psychiatric nurse"
+    },
+    "birthYear": "1942",
+    "occupation": ["Psychiatric nurse"],
+    "status": "Unknown",
+    "nicknames": [],
+    "appearance": [2, 3],
+    "portrayed": {
+      "child": "Mariella Aumann",
+      "adult": "Katharina Spiering"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/02/S03.jpg/revision/latest/scale-to-width-down/350?cb=20200703174056",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/0c/Screenshot_from_2020-07-03_01-53-24.png/revision/latest/scale-to-width-down/350?cb=20200703065500"
+    }
+  },
+  {
+    "char_id": "15",
+    "name": "Agnes Nielsen",
+    "description": {
+      "child": "Bartosz and Silja's daughter; Hanno's younger sister",
+      "adult": "The Unknown’s ex-wife; Tronte's mother, newly returned to Winden"
+    },
+    "birthYear": "1910",
+    "occupation": [],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Helena Pieske",
+      "adult": "Antje Traue"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/e/e8/Agnes_nielsen_1921.png/revision/latest?cb=20190701113843",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/57/Profile_-_Agnes.jpg/revision/latest/scale-to-width-down/350?cb=20180113194901"
+    }
+  },
+  {
+    "char_id": "16",
+    "name": "Franziska Doppler",
+    "description": {
+      "teen": "Peter and Charlotte's daughter, Elizabeth's sister",
+      "adult": "A member of Sic Mundus"
+    },
+    "birthYear": "Unknown",
+    "occupation": ["Student"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Gina Alice Stiebitz",
+      "adult": "Carina Wiese"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/56/Franziska_2019.png/revision/latest/scale-to-width-down/350?cb=20200629220136",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/f/f7/Franziska_1921.png/revision/latest/scale-to-width-down/350?cb=20200629220148"
+    }
+  },
+  {
+    "char_id": "17",
+    "name": "Elisabeth Doppler",
+    "description": {
+      "child": "Peter and Charlotte's daughter, Franziska's sister",
+      "adult": "Hanno’s wife; Charlotte’s mother, Leader of the survivors of the Winden apocalypse"
+    },
+    "birthYear": "2011",
+    "occupation": ["Student", "Leader in 2053"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Carlotta von Falkenhayn",
+      "adult": "Sandra Borgmann"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/cf/Elisabeth_Doppler.jpg/revision/latest/scale-to-width-down/350?cb=20180114151126",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/a/a4/Elisabeth_Doppler_future2052.jpg/revision/latest/scale-to-width-down/350?cb=20190622191036"
+    }
+  },
+  {
+    "char_id": "18",
+    "name": "Peter Doppler",
+    "description": {
+      "teen": "Helge's son who travelled to Winden after his mother's death",
+      "adult": "Charlotte's husband; Franziska and Elisabeth's father; Jonas' psychologist"
+    },
+    "birthYear": "Unknown",
+    "occupation": ["Therapist"],
+    "status": "Alive",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Pablo Striebeck",
+      "adult": "Stephan Kampwirth"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/8/8e/YoungPeter.png/revision/latest/scale-to-width-down/350?cb=20200628213655",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/57/Dark_1x01_-_Peter_Doppler.jpg/revision/latest/scale-to-width-down/350?cb=20171207002215"
+    }
+  },
+  {
+    "char_id": "19",
+    "name": "Charlotte Doppler",
+    "description": {
+      "baby": "Elisabeth and Hanno’s infant",
+      "teen": "An orphaned girl raised by her guardian, H.G. Tannhaus",
+      "adult": "Peter's wife; Franziska and Elisabeth's mother; Winden chief of police"
+    },
+    "birthYear": "2041",
+    "occupation": ["Police chie"],
+    "status": "Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "baby": "",
+      "teen": "Stephanie Amarell",
+      "adult": "Karoline Eichhorn"
+    },
+    "img": {
+      "baby": "",
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/f/f2/Charlotte1986.jpg/revision/latest/scale-to-width-down/350?cb=20180114232215",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/3/3a/Portal_%E2%80%93_Charlotte.jpg/revision/latest/scale-to-width-down/350?cb=20171203150640"
+    }
+  },
+  {
+    "char_id": "20",
+    "name": "Helge Doppler",
+    "description": {
+      "teen": "Bernd and Greta's son",
+      "adult": "Peter's father, a power plant guard",
+      "elder": "Patient in a psychiatric ward'"
+    },
+    "birthYear": "1943/1944",
+    "occupation": ["Cleaner at the Winden Nuclear Power Plant"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Tom Philipp",
+      "adult": "Peter Schneider",
+      "elder": "Hermann Beyer"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/a/ab/Helge1953.png/revision/latest?cb=20180115003725",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/52/Helge1986.png/revision/latest?cb=20180115003809",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/a/a3/Helge2019.png/revision/latest?cb=20180115004059"
+    }
+  },
+  {
+    "char_id": "21",
+    "name": "Bernd Doppler",
+    "description": {
+      "adult": "Greta's husband; Helge's father, founder of the power plant",
+      "elder": "Helge's father, former director of the power plant"
+    },
+    "birthYear": "1913",
+    "occupation": ["Nuclear plant director"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "adult": "Anatole Taubman",
+      "elder": "Michael Mendl"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/9/91/Profile_-_Bernd_1953.JPG/revision/latest/scale-to-width-down/350?cb=20180113195953",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/24/Profile_-_Bernd_1986.JPG/revision/latest/scale-to-width-down/350?cb=20180113195921"
+    }
+  },
+  {
+    "char_id": "22",
+    "name": "Greta Doppler",
+    "description": {
+      "adult": "Bernd's wife, Helge's mother"
+    },
+    "birthYear": "Unknown",
+    "occupation": ["Housewife"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "adult": "Cordelia Wege"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/4/43/Profile_-_Greta.JPG/revision/latest/scale-to-width-down/350?cb=20180120102252"
+    }
+  },
+  {
+    "char_id": "23",
+    "name": "H.G. Tannhaus",
+    "description": {
+      "adult": "A clock-maker",
+      "elder": "Charlotte's guardian, a clock-maker and author"
+    },
+    "birthYear": "1913",
+    "occupation": ["Scientist", "Clockmaker"],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "adult": "Arnd Klawitter",
+      "elder": "Christian Steyer"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/b/b4/Hgtannhaus1953.png/revision/latest/scale-to-width-down/350?cb=20180114162827",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/4/42/Hgtannhaus.png/revision/latest/scale-to-width-down/350?cb=20180114162827"
+    }
+  },
+  {
+    "char_id": "24",
+    "name": "Bartosz Tiedemann",
+    "description": {
+      "teen": "Regina and Aleksander's son, Jonas' best friend and Martha's boyfriend",
+      "adult": "Silja's husband, Hanno and Agnes's father; a member of Sic Mundus"
+    },
+    "birthYear": "2003",
+    "occupation": ["Student"],
+    "status": "Deceased/Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Paul Lux",
+      "adult": "Roman Knižka"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/8/8a/Bartosz.png/revision/latest/scale-to-width-down/350?cb=20171226012938",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/2e/Bartosz_1921.png/revision/latest/scale-to-width-down/350?cb=20200629025555"
+    }
+  },
+  {
+    "char_id": "25",
+    "name": "Regina Tiedemann",
+    "description": {
+      "teen": "Claudia and Bernd's daughter",
+      "adult": "Aleksander's wife, Bartosz's mother, a hotel manager"
+    },
+    "birthYear": "1971",
+    "occupation": ["Hotel Owner"],
+    "status": "Alive/Deceased",
+    "nicknames": ["The Inspector"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Lydia Makrides",
+      "adult": "Deborah Kaufmann"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/9/91/Regina_1986.png/revision/latest/scale-to-width-down/350?cb=20200629192722",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/c3/Regina_2019.png/revision/latest/scale-to-width-down/350?cb=20200629192734"
+    }
+  },
+  {
+    "char_id": "26",
+    "name": "Aleksander Tiedemann",
+    "description": {
+      "teen": "A mysterious young man born as Boris Niewald",
+      "adult": "Regina's husband, Bartosz's father, and director of the power plan"
+    },
+    "birthYear": "Unknown",
+    "occupation": ["Director of Winden Nuclear Power Plant"],
+    "status": "Deceased",
+    "nicknames": ["Boris Niewald"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "teen": "Béla Gabor Lenz",
+      "adult": "Peter Benedict"
+    },
+    "img": {
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/27/Aleksander_1986.png/revision/latest/scale-to-width-down/350?cb=20200629192327",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/11/Aleksander_2019.png/revision/latest/scale-to-width-down/350?cb=20200629192348"
+    }
+  },
+  {
+    "char_id": "27",
+    "name": "Claudia Tiedemann",
+    "description": {
+      "child": "Egon and Doris' daughter, Helge's tutor",
+      "adult": "Regina's mother, director of the power plant",
+      "elder": "Jonas and Noah's mentor; a time traveller"
+    },
+    "birthYear": "1942",
+    "occupation": ["Nuclear Plant Directo"],
+    "status": "Deceased",
+    "nicknames": ["The White Devil"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Gwendolyn Göbel",
+      "adult": "Julika Jenkins",
+      "elder": "Lisa Kreuzer"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/f/f6/Claudia_1953.png/revision/latest/scale-to-width-down/350?cb=20200629193301",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/12/Claudia_1986.png/revision/latest/scale-to-width-down/350?cb=20200629193332",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/1/18/Claudia_2019.png/revision/latest/scale-to-width-down/350?cb=20200629193350"
+    }
+  },
+  {
+    "char_id": "28",
+    "name": "Egon Tiedemann",
+    "description": {
+      "adult": "Doris' husband; Claudia's father, a police officer",
+      "elder": "Claudia's father, a police chief inspector approaching retirement"
+    },
+    "birthYear": "1920s",
+    "occupation": ["Police Officer"],
+    "status": "Deceased",
+    "nicknames": ["The Inspector"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "adult": "Sebastian Hülk",
+      "elder": "Christian Pätzold"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/2/2c/Egon_1953.png/revision/latest/scale-to-width-down/350?cb=20200629215502",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/c/c4/Egon_1986.png/revision/latest/scale-to-width-down/350?cb=20200629215452"
+    }
+  },
+  {
+    "char_id": "29",
+    "name": "Doris Tiedemann",
+    "description": {
+      "adult": "Claudia's mother and Egon's wife"
+    },
+    "birthYear": "1970",
+    "occupation": [],
+    "status": "Deceased",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "adult": "Luise Heyer"
+    },
+    "img": {
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/6/65/Doris.tiedemann.png/revision/latest?cb=20180101005417"
+    }
+  },
+  {
+    "char_id": "30",
+    "name": "Hanno Tauber",
+    "description": {
+      "child": "Bartosz and Silja's son",
+      "teen": "Agnes' older brother, an acolyte of Sic Mundus",
+      "adult": "Elisabeth's husband; a priest and member of Sic Mundus, also known as 'Noah'"
+    },
+    "birthYear": "1904",
+    "occupation": ["Priest"],
+    "status": "Ceased to exist",
+    "nicknames": ["Noah"],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Till Patz",
+      "teen": "Max Schimmelpfennig",
+      "adult": "Mark Waschke"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/f/f1/Kid_Noah.png/revision/latest/scale-to-width-down/350?cb=20200629031444",
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/54/Noah-young.PNG/revision/latest/scale-to-width-down/350?cb=20190622163012",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/4/4e/Portal_%E2%80%93_Noah.jpg/revision/latest/scale-to-width-down/350?cb=20171203223020"
+    }
+  },
+  {
+    "char_id": "31",
+    "name": "Silja Tiedemann",
+    "description": {
+      "child": "Hannah and Egon's daughter, Jonas and Claudia's half-sister",
+      "teen": "Elisabeth's interpreter",
+      "adult": "Bartosz's wife, Hanno and Agnes's mother"
+    },
+    "birthYear": "1988",
+    "occupation": ["Elisabeth Doppler's Interpreter"],
+    "status": "Deceased/Ceased to exist",
+    "nicknames": [],
+    "appearance": [1, 2, 3],
+    "portrayed": {
+      "child": "Aurora Dervisi",
+      "teen": "Lea van Acken",
+      "adult": "Lissy Pernthaler"
+    },
+    "img": {
+      "child": "",
+      "teen": "https://vignette.wikia.nocookie.net/dark-netflix/images/0/08/Silija.jpg/revision/latest/scale-to-width-down/350?cb=20190624183655",
+      "adult": ""
+    }
+  },
+  {
+    "char_id": "32",
+    "name": "The Unknown",
+    "description": {
+      "child": "The youngest version of Jonas and Martha's son; a member of Erit Lux",
+      "adult": "The adult version of Jonas and Martha's son; Agnes' ex-husband, Tronte's father; a member of Erit Lux",
+      "elder": "The oldest version of Jonas and Martha's son; a member of Erit Lux"
+    },
+    "birthYear": "1970",
+    "occupation": [],
+    "status": "Ceased to exist",
+    "nicknames": ["The Origin"],
+    "appearance": [3],
+    "portrayed": {
+      "child": "Claude Heinrich",
+      "adult": "Jakob Diehl",
+      "elder": "Hans Diehl"
+    },
+    "img": {
+      "child": "https://vignette.wikia.nocookie.net/dark-netflix/images/3/38/The_Unknown_%28Young%29.jpg/revision/latest/scale-to-width-down/350?cb=20200628201604",
+      "adult": "https://vignette.wikia.nocookie.net/dark-netflix/images/d/d7/The_Unknown_%28Adult%29.jpg/revision/latest/scale-to-width-down/350?cb=20200628201637",
+      "elder": "https://vignette.wikia.nocookie.net/dark-netflix/images/5/51/The_Unknown_%28Old%29.jpg/revision/latest/scale-to-width-down/350?cb=20200628201619"
+    }
   }
 ]
