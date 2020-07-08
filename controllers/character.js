@@ -3,11 +3,7 @@ const ErrorResponse = require('../utils/errorResponse');
 const Character = require('../models/Character');
 
 exports.getCharacters = asyncHandler(async (req, res, next) => {
-  const characters = await Character.find();
-
-  return res
-    .status(200)
-    .json({ success: true, count: characters.length, data: characters });
+  return res.status(200).json(res.advancedResults);
 });
 
 exports.getCharacter = asyncHandler(async (req, res, next) => {
