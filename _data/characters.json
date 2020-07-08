@@ -1,7 +1,7 @@
 [
   {
     "char_id": "1",
-    "name": "Jonas Kanhwald",
+    "name": "Jonas Kahnwald",
     "description": {
       "teen": "A high school student struggling with his father's suicide. Martha’s love interest.",
       "adult": "A time traveller, also known as 'The Stranger'",
@@ -25,7 +25,7 @@
   },
   {
     "char_id": "2",
-    "name": "Michael Kanhwald",
+    "name": "Michael Kahnwald",
     "description": {
       "child": "Ulrich and Katharina's youngest Child",
       "adult": "Hannah's husband and Jonas' father, an artist who dies by suicide"
@@ -46,7 +46,7 @@
   },
   {
     "char_id": "3",
-    "name": "Hannah Kanhwald",
+    "name": "Hannah Kahnwald",
     "description": {
       "teen": "Hannah Krüger, daughter of Sebastian Krüger, a shy young girl",
       "adult": "Jonas' mother and Michael's wife, a massage therapist; Silja Tiedemann's Mother"
@@ -67,7 +67,7 @@
   },
   {
     "char_id": "4",
-    "name": "Ines Kanhwald",
+    "name": "Ines Kahnwald",
     "description": {
       "child": "A young girl",
       "adult": "Michael's adoptive mother, a nurse",

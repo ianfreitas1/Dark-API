@@ -7,6 +7,7 @@ dotenv.config({ path: './config/config.env' });
 
 // Load models
 const Character = require('./models/Character');
+const Episode = require('./models/Episode');
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
@@ -20,10 +21,15 @@ const characters = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/characters.json`, 'utf-8')
 );
 
+const episodes = JSON.parse(
+  fs.readFileSync(`${__dirname}/_data/episodes.json`, 'utf-8')
+);
+
 // Import into DB
 const importData = async () => {
   try {
     await Character.create(characters);
+    await Episode.create(episodes)
     console.log('Data imported...');
     process.exit();
   } catch (err) {
@@ -35,6 +41,7 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Character.deleteMany();
+    await Episode.deleteMany();
     console.log('Data destroyed...');
     process.exit();
   } catch (err) {

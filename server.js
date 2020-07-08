@@ -9,6 +9,7 @@ dotenv.config({ path: './config/config.env' });
 
 // Route files
 const characters = require('./routes/characters');
+const episodes = require('./routes/episodes');
 
 connectDB();
 
@@ -16,6 +17,7 @@ const app = express();
 
 // Mount routers
 app.use('/api/characters', characters);
+app.use('/api/episodes', episodes)
 
 app.use(errorHandler);
 
