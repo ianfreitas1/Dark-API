@@ -15,3 +15,11 @@ exports.getCharacter = asyncHandler(async (req, res, next) => {
 
   return res.status(200).json({ success: true, data: character });
 });
+
+exports.getRandomCharacter = asyncHandler(async (req, res, next) => {
+  const characters = await Character.find();
+  const randomNumber = Math.floor(Math.random() * characters.length) + 1;
+  const randomCharacter = await Character.findOne({ char_id: randomNumber });
+
+  return res.status(200).json({ success: true, data: randomCharacter });
+});
