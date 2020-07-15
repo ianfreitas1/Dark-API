@@ -3,11 +3,7 @@ const ErrorResponse = require('../utils/errorResponse');
 const Character = require('../models/Character');
 
 exports.getCharacters = asyncHandler(async (req, res, next) => {
-  const characters = await Character.find();
-
-  return res
-    .status(200)
-    .json({ success: true, count: characters.length, data: characters });
+  return res.status(200).json(res.advancedResults);
 });
 
 exports.getCharacter = asyncHandler(async (req, res, next) => {
@@ -18,4 +14,12 @@ exports.getCharacter = asyncHandler(async (req, res, next) => {
   }
 
   return res.status(200).json({ success: true, data: character });
+});
+
+exports.getRandomCharacter = asyncHandler(async (req, res, next) => {
+  const characters = await Character.find();
+  const randomNumber = Math.floor(Math.random() * characters.length) + 1;
+  const randomCharacter = await Character.findOne({ char_id: randomNumber });
+
+  return res.status(200).json({ success: true, data: randomCharacter });
 });

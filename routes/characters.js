@@ -1,9 +1,16 @@
 const express = require('express');
-const { getCharacters, getCharacter } = require('../controllers/character');
+const {
+  getCharacters,
+  getCharacter,
+  getRandomCharacter,
+} = require('../controllers/character');
+const advancedResults = require('../middlewares/advancedResults');
+const Character = require('../models/Character');
 
 const router = express.Router();
 
-router.route('/').get(getCharacters);
-router.route('/:id').get(getCharacter);
+router.get('/', advancedResults(Character), getCharacters);
+router.get('/random', getRandomCharacter);
+router.get('/:id', getCharacter);
 
 module.exports = router;
