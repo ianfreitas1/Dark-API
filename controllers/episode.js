@@ -19,3 +19,12 @@ exports.getEpisode = asyncHandler(async (req, res, next) => {
 
   return res.status(200).json({ success: true, data: episode });
 });
+
+exports.getRandomEpisode = asyncHandler(async (req, res, next) => {
+  const episodes = await Episode.find();
+  const randomNumber = Math.floor(Math.random() * episodes.length) + 1;
+
+  const randomEpisode = await Episode.findOne({ episode_id: randomNumber });
+
+  return res.status(200).json({ success: true, data: randomEpisode });
+})

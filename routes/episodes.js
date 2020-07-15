@@ -1,9 +1,10 @@
 const express = require('express');
-const { getEpisodes, getEpisode }  = require('../controllers/episode');
+const { getEpisodes, getEpisode, getRandomEpisode }  = require('../controllers/episode');
 
 const  router = express.Router();
 
-router.route('/').get(getEpisodes);
-router.route('/:id').get(getEpisode);
+router.get('/', getEpisodes);
+// router.get('/:id', getEpisode);
+router.get('/random', getRandomEpisode);
 
 module.exports = router;
